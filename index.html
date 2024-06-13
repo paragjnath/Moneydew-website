@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moneywise - Expense and Budget Tracker</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F1E9DE;
+            color: rgb(85, 81, 81);
+        }
+        .header {
+            background-color: #F1E9DE;
+            color: rgb(85, 81, 81);
+            padding: 20px 0;
+            text-align: center;
+            position: relative;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .header img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .feature {
+            background: white;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            flex: 1 1 calc(33% - 20px);
+            box-sizing: border-box;
+            min-width: 300px;
+            text-align: center;
+        }
+        .feature i {
+            font-size: 3em;
+            color: #eb8392;
+            margin-bottom: 10px;
+        }
+        .cta {
+            text-align: center;
+            margin: 40px 0;
+        }
+        .cta a {
+            background-color: #3fb9a2;
+            color: white;
+            padding: 15px 30px;
+            margin-top: 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+        }
+        .cta a:hover {
+            background-color: #3fb9a2;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: white;
+        }
+        footer a {
+            color: #3fb9a2;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="app_icon.webp" alt="App Icon">
+        <h1>Moneywise</h1>
+        <p>Your Ultimate Expense and Budget Tracker</p>
+    </div>
+
+    <div class="container">
+        <section class="features">
+            <div class="feature">
+                <i class="fas fa-receipt"></i>
+                <h2>Track Expenses</h2>
+                <p>Easily record and monitor your daily expenses with just a few taps.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-wallet"></i>
+                <h2>Budget Management</h2>
+                <p>Create and manage budgets to keep your finances in check.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-tags"></i>
+                <h2>Category Tags</h2>
+                <p>Organize your expenses by categories and tags for better insights.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-chart-line"></i>
+                <h2>Detailed Reports</h2>
+                <p>Generate detailed reports to understand your spending patterns.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-lock"></i>
+                <h2>Secure Data</h2>
+                <p>All data entered into the applications by you stays on your device.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-mobile-alt"></i>
+                <h2>User-Friendly Interface</h2>
+                <p>Enjoy a seamless and intuitive user experience.</p>
+            </div>
+        </section>
+
+        <div class="cta">
+            <h2>Start Managing Your Finances Today!</h2>
+            <br>
+            <a href="#download">Download Moneywise Now</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Moneywise. All rights reserved. | <a href="./privacy.html">Privacy Policy</a></p>
+    </footer>
+</body>
+</html>
